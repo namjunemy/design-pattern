@@ -1,13 +1,14 @@
 package deepshallow;
 
 public class Main {
-  public static void main(String[] args) {
+  public static void main(String[] args) throws CloneNotSupportedException {
     Cat navi = new Cat();
     navi.setName("navi");
-    System.out.println(navi.getName());
 
-    Cat yo = navi;
+    Cat yo = navi.copy();
     yo.setName("yo");
+
+    System.out.println(navi.getName());
     System.out.println(yo.getName());
   }
 }
