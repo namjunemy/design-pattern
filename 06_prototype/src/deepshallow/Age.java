@@ -1,6 +1,6 @@
 package deepshallow;
 
-public class Age {
+public class Age implements Cloneable{
   private int year;
   private int value;
 
@@ -23,5 +23,10 @@ public class Age {
 
   public void setValue(int value) {
     this.value = value;
+  }
+
+  @Override
+  public Object clone() throws CloneNotSupportedException {
+    return super.clone();
   }
 }

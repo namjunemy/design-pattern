@@ -20,9 +20,9 @@ public class Cat implements Cloneable {
     this.age = age;
   }
 
-  public Cat copy() throws CloneNotSupportedException{
+  public Cat copy() throws CloneNotSupportedException {
     Cat cat = (Cat) clone();
-    cat.setAge(new Age(this.age.getYear(), this.age.getValue()));
+    cat.setAge((Age) age.clone());
     return cat;
   }
 }
