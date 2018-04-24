@@ -1,3 +1,5 @@
+package pattern01;
+
 public class ComputerFactory {
   private BluePrint bluePrint;
 

@@ -1,3 +1,5 @@
+package pattern01;
+
 public abstract class BluePrint {
   public abstract void setCpu();
 

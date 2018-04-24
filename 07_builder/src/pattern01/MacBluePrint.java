@@ -1,3 +1,5 @@
+package pattern01;
+
 public class MacBluePrint extends BluePrint {
   private Computer computer;
 
