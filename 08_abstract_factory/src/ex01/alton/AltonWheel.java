@@ -1,6 +1,6 @@
-package alton;
+package ex01.alton;
 
-import abst.Wheel;
+import ex01.abst.Wheel;
 
 public class AltonWheel implements Wheel {
 }

@@ -1,6 +1,6 @@
-package alton;
+package ex01.alton;
 
-import abst.Body;
+import ex01.abst.Body;
 
 public class AltonBody implements Body {
 }

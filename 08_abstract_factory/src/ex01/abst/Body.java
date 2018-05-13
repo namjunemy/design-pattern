@@ -1,4 +1,4 @@
-package abst;
+package ex01.abst;
 
 public interface Body {
 }

@@ -1,6 +1,6 @@
-package sam;
+package ex01.sam;
 
-import abst.Wheel;
+import ex01.abst.Wheel;
 
 public class SamWheel implements Wheel {
 }

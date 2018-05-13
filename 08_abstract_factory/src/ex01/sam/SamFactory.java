@@ -1,8 +1,8 @@
-package sam;
+package ex01.sam;
 
-import abst.BikeFactory;
-import abst.Body;
-import abst.Wheel;
+import ex01.abst.BikeFactory;
+import ex01.abst.Body;
+import ex01.abst.Wheel;
 
 public class SamFactory implements BikeFactory {
   @Override

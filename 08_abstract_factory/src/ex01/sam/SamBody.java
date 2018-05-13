@@ -1,6 +1,6 @@
-package sam;
+package ex01.sam;
 
-import abst.Body;
+import ex01.abst.Body;
 
 public class SamBody implements Body {
 }

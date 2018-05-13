@@ -1,8 +1,9 @@
-import abst.BikeFactory;
-import abst.Body;
-import abst.Wheel;
-import alton.AltonFactory;
-import sam.SamFactory;
+package ex01;
+
+import ex01.abst.BikeFactory;
+import ex01.abst.Body;
+import ex01.abst.Wheel;
+import ex01.alton.AltonFactory;
 
 public class Main {
   public static void main(String[] args) {
